@@ -145,7 +145,6 @@
 
     <Button
             android:id="@+id/logout"
-            android:onClick="userLogOut"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="@id/text7"
@@ -155,6 +154,19 @@
             android:textAllCaps="false"
             android:textColor="#fff"
     />
+
+    <Button
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="80dp"
+            android:background="#E94800"
+            android:text="Map"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            app:layout_constraintTop_toTopOf="@id/text7"
+            tools:layout_editor_absoluteX="27dp" />
 
     <include layout="@layout/bottom_nav"/>
 
